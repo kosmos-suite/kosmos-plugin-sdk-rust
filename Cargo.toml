@@ -1,0 +1,11 @@
+[package]
+name = "kosmos-plugin-sdk"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Guest-side runtime for Kosmos WASM plugins written in Rust"
+repository = "https://github.com/kosmos-suite/kosmos-plugin-sdk-rust"
+readme = "README.md"
+
+[lib]
+crate-type = ["lib"]
